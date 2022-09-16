@@ -23,6 +23,11 @@ h1 {
   line-height: 1;
 }
 
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
 /** Card Specific Styles */
 .card {
   width: 390px;
@@ -40,6 +45,20 @@ h1 {
 
 .card.bulbasaur {
   background-color: #97C551;
+}
+
+.card.squirtle {
+  background-color: #6fadc1;
+}
+
+header {
+  width: 100%;
+  font-weight: 600;
+}
+
+header p {
+  margin-bottom: -10px;
+  font-size: 12px;
 }
 
 .header {
