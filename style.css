@@ -31,8 +31,15 @@ h1 {
   align-items: center;
   border: 16px solid var(--border-yellow);
   border-radius: 20px;
-  background: #E5C0A9;
   padding: 8px 16px;
+}
+
+.card.charmander {
+  background-color: #E5C0A9;
+}
+
+.card.bulbasaur {
+  background-color: #97C551;
 }
 
 .header {
