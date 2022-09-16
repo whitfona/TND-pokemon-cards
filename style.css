@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/** Colours */
+:root {
+  --border-yellow: #d9b804;
+  --red: #D45136;
+}
+
+/** Global Styles */
+.type-icon {
+  max-width: 24px;
+}
+
+h1 {
+  line-height: 1;
+}
+
+/** Card Specific Styles */
+.card {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 16px solid var(--border-yellow);
+  border-radius: 20px;
+  background: #E5C0A9;
+  padding: 8px 16px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header .health {
+  color: var(--red);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header .power {
+  display: flex;
+  gap: 10px;
+}
+
+.ribbon {
+  background-color: var(--border-yellow);
+  margin-top: 6px;
+  font-size: 12px;
+  padding: 2px 20px;
+}
+
+.hero-img {
+  border: 10px solid var(--border-yellow);
+  width: 340px;
+}
+
+.attack {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.traits {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.trait {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.bio {
+  padding: 6px;
+  margin-top: 8px;
+  border: 1px solid var(--border-yellow);
+  font-style: italic;
+  font-size: 13px;
+}
