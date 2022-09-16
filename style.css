@@ -12,6 +12,9 @@ img {
 :root {
   --border-yellow: #d9b804;
   --red: #D45136;
+  --charmander-red: #E5C0A9;
+  --bulbasaur-green: #97C551;
+  --squirtle-blue: #6fadc1;
 }
 
 /** Global Styles */
@@ -26,11 +29,13 @@ h1 {
 .container {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  padding-top: 1rem;
 }
 
 /** Card Specific Styles */
 .card {
-  width: 390px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,15 +45,15 @@ h1 {
 }
 
 .card.charmander {
-  background-color: #E5C0A9;
+  background-color: var(--charmander-red);
 }
 
 .card.bulbasaur {
-  background-color: #97C551;
+  background-color: var(--bulbasaur-green);
 }
 
 .card.squirtle {
-  background-color: #6fadc1;
+  background-color: var(--squirtle-blue);
 }
 
 header {
@@ -95,8 +100,7 @@ header p {
 
 .attack {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  /* justify-content: center; */
+  grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -104,6 +108,20 @@ header p {
   padding: 20px 0;
   font-size: 20px;
   font-weight: bold;
+}
+
+.attack-description {
+  text-align: left;
+  line-height: 0.75;
+}
+
+.attack-description span {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.attack-description .type-icon {
+  width: 10px;
 }
 
 .traits {
