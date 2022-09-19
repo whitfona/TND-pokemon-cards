@@ -20,9 +20,9 @@ What are the fewest CSS properties you can use?
 
 ## Assets
 ### Colours
-  --border-yellow: #d9b804;
-  --text-red: #D45136;
-  --charmander-red: #E5C0A9;
-  --bulbasaur-green: #97C551;
-  --squirtle-blue: #6fadc1;
+  -border-yellow: #d9b804;
+  -text-red: #D45136;
+  -charmander-red: #E5C0A9;
+  -bulbasaur-green: #97C551;
+  -squirtle-blue: #6fadc1;
 ### Images can be found here https://github.com/whitfona/TND-pokemon-cards/tree/main/assets, or find your own!
