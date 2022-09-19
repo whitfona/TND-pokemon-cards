@@ -16,7 +16,7 @@ What are the fewest CSS properties you can use?
 - Work on one card at a time
 - Try to use classes to reduce reduntant code
 - Flexbox and Grid are your friends
-- Some code to get you started can be found here 
+- Some code to get you started can be found here https://github.com/whitfona/TND-pokemon-cards/tree/main/starter-code
 
 
 ## Assets
