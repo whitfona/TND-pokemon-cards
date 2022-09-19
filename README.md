@@ -11,7 +11,7 @@ Can you create the marble background from the original cards (not in the image a
 What are the fewest HTML elements you can use?
 What are the fewest CSS properties you can use?
 
-##Tips:
+## Tips:
 - Start with the general ideas and work towards more specific details.
 - Work on one card at a time
 - Try to use classes to reduce reduntant code
