@@ -16,6 +16,7 @@ What are the fewest CSS properties you can use?
 - Work on one card at a time
 - Try to use classes to reduce reduntant code
 - Flexbox and Grid are your friends
+- Some code to get you started can be found here 
 
 
 ## Assets
@@ -25,6 +26,6 @@ What are the fewest CSS properties you can use?
   - charmander-red: #E5C0A9;
   - bulbasaur-green: #97C551;
   - squirtle-blue: #6fadc1;
-  - 
+  
 ### Images: 
   - can be found here https://github.com/whitfona/TND-pokemon-cards/tree/main/assets or find your own!
